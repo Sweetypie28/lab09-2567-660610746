@@ -29,7 +29,7 @@ export default function TaskInput({ addTaskFunc }: TaskInputProps) {
         onKeyUp={taskInputOnKeyUp}
         value={taskInput}
       />
-      <button className="btn btn-primary" onClick={addTaskBtnOnClick}>
+      <button disabled={taskInput === ""} className="btn btn-primary" onClick={addTaskBtnOnClick}>
         Add
       </button>
     </div>

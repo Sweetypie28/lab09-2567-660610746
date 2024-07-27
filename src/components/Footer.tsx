@@ -1,6 +1,7 @@
+import { AnySrvRecord } from "dns";
 import React from "react";
 
-export default function Footer(props) {
+export default function Footer(props:any) {
   return (
     <div className="mt-3">
       <p className="text-secondary text-center">
